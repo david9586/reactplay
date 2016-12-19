@@ -7,8 +7,14 @@
         "react"
     ],
     "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
+        "ecmaFeatures": {
+        "jsx": true
+        }
+    },
+    "rules": {
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
+        "semi": ["error","always"],
+        "no-extra-semi": "error"
     }
-  }
 }
